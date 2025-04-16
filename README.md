@@ -1,0 +1,2 @@
+Recentemente, me desafiei a desenvolver um projeto web utilizando exclusivamente o Bootstrap e o mínimo possível de CSS. O objetivo desse desafio foi explorar as limitações e as potencialidades do Bootstrap na criação de interfaces responsivas e atraentes.
+Ao longo do desenvolvimento, procurei manter a simplicidade e a eficiência, garantindo que cada elemento da página fosse funcional e esteticamente agradável. Utilizei componentes do Bootstrap para criar um layout limpo e harmonioso, testando diferentes estilos e funcionalidades
