@@ -1,0 +1,397 @@
+<!DOCTYPE html>  
+<html lang="pt-br">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&family=Sedgwick+Ave+Display&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">  
+    <link rel="stylesheet" href="style.css">  
+    <title>THE CYPHER ORIGIN</title>  
+</head>  
+<body>  
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">  
+        <div class="container">  
+            <h1 class="navbar-brand m-0 fs-2 title-cor">THE CYPHER</h1>  
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Menu-nav">  
+                <span class="navbar-toggler-icon"></span>  
+            </button>  
+            <nav class="navbar-collapse collapse justify-content-end" id="Menu-nav">  
+                <ul class="nav nav-pills d-block d-md-flex">  
+                    <li class="nav-item fw fw-bold">  
+                        <a href="#quem-somos" class="nav-link active fs-4">  
+                            <i class="bi bi-people me-1"></i>  
+                            Quem somos  
+                        </a>  
+                    </li>  
+                    <li class="nav-item fw fw-bold">  
+                        <a href="#Coleções" class="nav-link fs-4">  
+                            <i class="bi bi-grid me-1"></i>  
+                            Coleções  
+                        </a>  
+                    </li>  
+                    <li class="nav-item fw fw-bold">  
+                        <a href="#Produtos" class="nav-link fs-4">  
+                            <i class="bi bi-bag me-1"></i>  
+                            Produtos  
+                        </a>  
+                    </li>  
+                    <li class="nav-item fw fw-bold">  
+                        <a href="#Estilo-vida" class="nav-link fs-4">  
+                            <i class="bi bi-heart me-1"></i>  
+                            Estilo  
+                        </a>  
+                    </li>  
+                    <li class="nav-item fw fw-bold">  
+                        <a href="#fale-conosco" class="nav-link fs-4">  
+                            <i class="bi bi-chat-left-text"></i>  
+                            Fale conosco  
+                        </a>  
+                    </li>  
+                </ul>  
+            </nav>  
+        </div>  
+    </header>  
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">  
+        <section>  
+            <div class="carousel slide pt-3" data-bs-ride="carousel" id="carousel">  
+                <div class="carousel-inner">  
+                    <div class="carousel-item active" data-bs-interval="5000">  
+                        <div class="d-flex justify-content-center">  
+                            <img class="img-fluid" src="./img/banner_basket.webp" alt="Banner de basquete" style="width: 80%;">  
+                        </div>  
+                    </div>  
+                    <div class="carousel-item" data-bs-interval="5000">  
+                        <div class="d-flex justify-content-center">
+                            <img class="img-fluid" src="./img/prisonbaner.webp" alt="Banner da prisão" style="width: 80%;">  
+                        </div>
+                    </div>  
+                    <div class="carousel-item" data-bs-interval="5000">  
+                        <div class="d-flex justify-content-center">
+                            <img class="img-fluid" src="./img/baner-fottamerican.webp" alt="Banner de futebol americano" style="width: 80%;">  
+                        </div>
+                    </div>  
+                </div>  
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">  
+                    <span class="carousel-control-prev-icon"></span>  
+                    <span class="visually-hidden">Anterior</span>  
+                </button>  
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">  
+                    <span class="carousel-control-next-icon"></span>  
+                    <span class="visually-hidden">Próximo</span>  
+                </button>  
+                <div class="carousel-indicators">  
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>  
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>  
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>  
+                </div>  
+            </div> 
+            <div class="pt-5 pb-5" id="quem-somos">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./img/loja/THE CYPHER.png" class="d-block w-100 rounded" alt="Foto-da-loja">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0 fs-5 text-sobre">
+                            <h2 class="sub-title-color">Quem somos</h2>
+                            <p>A <span class="text-colored">The Cypher</span> é uma loja de roupas streetwear que se destaca por sua estética urbana e contemporânea. Localizada no coração da cidade, nossa loja se tornou um ponto de encontro para os amantes da cultura urbana e do estilo de vida moderno. Na The Cypher, acreditamos que a moda é uma forma de autoexpressão, e oferecemos uma seleção cuidadosamente curada de roupas que refletem individualidade e autenticidade. Desde camisetas com estampas ousadas até jaquetas oversized, cada peça é escolhida para garantir que nossos clientes se sintam confiantes e à vontade em seu próprio estilo.</p>
+                            <p>Nosso compromisso com a qualidade e o design inovador nos diferencia no mundo do streetwear. Trabalhamos com marcas emergentes e designers locais, promovendo o talento criativo da comunidade enquanto também apresentamos marcas internacionais reconhecidas. A The Cypher não é apenas uma loja; é um espaço onde a moda e a cultura se encontram. A cada nova coleção, buscamos trazer o que há de mais recente nas tendências da moda urbana, garantindo que nossos clientes estejam sempre na vanguarda do estilo streetwear.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section id="Coleções" class="pt-5 pb-5 container-color">
+            <div class="container">
+                <div class="row mt-4">
+                    <h2 class="text-center sub-title-color"> Coleções de abril</h2>
+                </div>
+                <div class="row">  
+                    <div class="col-md-4">
+                        <img src="./img/coleções/camisa_baseball_1.webp" alt="camisa de baseball" class="d-block w-100 rounded mb-2">
+                        <h3 class="sub-title-color">
+                            Camiseta de Baseball Prison 00 USA
+                        </h3>
+                        <p class="text-sobre">A camiseta de Baseball Prison 00 USA combina estilo urbano e conforto, perfeita para quem deseja expressar atitude e personalidade no dia a dia.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./img/coleções/buckt.webp" alt="camisa de baseball" class="d-block w-100 rounded mb-2">
+                        <h3 class="sub-title-color">
+                            Bucket Prison x NFL Green Packers Bay
+                        </h3>
+                        <p class="text-sobre">O Bucket Prison x NFL Green Bay Packers é um chapéu estiloso, ideal para torcedores. Oferece conforto e proteção solar com design moderno.</p>
+                    </div>
+                    <div class="col-md-4 col-color">
+                        <img src="./img/coleções/moleton.webp" alt="camisa de baseball" class="d-block w-100 rounded mb-2">
+                        <h3 class="sub-title-color">
+                            Blusa Moletom Hype P Prison
+                        </h3><br>
+                        <p class="text-sobre">A Blusa Moletom Hype P Prison oferece conforto e estilo. Com design moderno, é perfeita para looks casuais e urbanos. Ideal para todas as estações.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Produtos" class="pt-5 pb-5">  
+            <div class="container">  
+                <div class="row">  
+                    <h2 class="sub-title-color text-center">Nossos Produtos</h2>  
+                </div>  
+                <div class="row">  
+                    <aside class="col-md-2">  
+                        <nav class="nav nav-pills flex-column nav-produtos">  
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#camisas-streetwear" class="fw-bold text-start nav-link sub-menu-color active">Camisetas Streetwear</button>  
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#camisas-baseball" class="fw-bold text-start nav-link sub-menu-color">Camisetas Baseball</button>  
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#moleton" class="fw-bold text-start nav-link sub-menu-color">Moleton</button>  
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#calças" class="fw-bold text-start nav-link sub-menu-color">Calças</button>  
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#acessorios" class="fw-bold text-start nav-link sub-menu-color">Acessórios</button>  
+                        </nav>  
+                    </aside>  
+                    <div class="col-md-10">  
+                        <div class="tab-content">  
+                            <!-- Aba Camisas Streetwear -->  
+                            <div class="tab-pane active" id="camisas-streetwear">  
+                                <div class="row">  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/camisa_prison_vermelha.webp" alt="Camiseta Prison New York Street Vermelha">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Camiseta Prison New York Street Vermelha</h5>  
+                                        <p class="text-sobre">A Camiseta Prison New York Street combina estilo urbano com conforto premium. Inspirada no lifestyle de Nova York, essa peça traz o icônico "NY" em silk frontal de alta definição.</p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/camisa-preta.webp" alt="Camiseta Streetwear Prison Basket Fireball Preta">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Camiseta Streetwear Prison Basket Fireball Preta</h5>  
+                                        <p class="text-sobre">A Camiseta Streetwear Prison Basket Fireball combina o universo do basquete com a energia do streetwear. A estampa frontal traz uma bola de basquete em chamas.</p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/camisa-branca.webp" alt="Camiseta Streetwear Prison Super Clown Branca">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Camiseta Prison Super Clown Branca</h5>  
+                                        <p class="text-sobre">A Camiseta Streetwear Prison Super Clown traz um design ousado inspirado na estética dos quadrinhos e da cultura underground. Sua estampa frontal é marcante.</p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/branca-global.webp" alt="Camiseta Prison Global Dragon Branca">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Camiseta Prison Global Dragon Branca</h5>  
+                                        <p class="text-sobre">A Camiseta Oversized Prison Global Dragon combina elementos da cultura oriental com o streetwear moderno. A tipografia chinesa na parte frontal simboliza força e tradição.</p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/phanter-branca.webp" alt="Camiseta Streetwear Prison Panther Branca">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Camiseta Streetwear Prison Panther Branca</h5>  
+                                        <p class="text-sobre">Com uma estética intensa, a Camiseta Oversized Prison Panther Branca carrega uma pegada imponente. A estampa frontal traz uma pantera negra em ataque.</p>  
+                                    </div>  
+                                </div>  
+                            </div> 
+                            <div class="tab-pane" id="camisas-baseball">  
+                                <div class="row">  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/baseball-branca.webp" alt="Camisa Prison Baseball NY Off White">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Camisa Prison Baseball NY Off White</h5>  
+                                        <p class="text-sobre">A Camisa Baseball NY Off-White é a fusão perfeita entre a cultura streetwear e o clássico design das jerseys de baseball. Essa peça é ideal para quem busca um visual autêntico.</p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/baseball-preta.webp" alt="Camiseta de Baseball Prison 00 USA">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Camiseta de Baseball Prison 00 USA</h5>  
+                                        <p class="text-sobre">A Camiseta Baseball 00 USA Prison é a união entre streetwear e a tradição dos esportes americanos. Com um design inspirado nas jerseys clássicas do baseball.</p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/baseball-azul.webp" alt="Camiseta Baseball Jersey Prison 23 Azul Royal">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Camiseta Baseball Jersey Prison 23 Azul Royal</h5>  
+                                        <p class="text-sobre">A Camiseta Baseball Jersey Prison Azul Royal é a fusão entre estilo e tradição esportiva. Inspirada no universo do baseball americano.</p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/baseball-red.webp" alt="Camiseta Baseball Jersey Prison 23 Vinho">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Camiseta Baseball Jersey Prison 23 Vinho</h5>  
+                                        <p class="text-sobre">A Camiseta Baseball Jersey Prison é uma peça exclusiva que combina estilo autêntico e qualidade premium. Inspirada no universo do Baseball.</p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/bassebal-jersey.webp" alt="Camiseta de Baseball Listrada Jersey Prison New York">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Camiseta de Baseball Listrada Jersey Prison New York</h5>  
+                                        <p class="text-sobre">A Camiseta Baseball Jersey Prison New York é a peça essencial para quem busca unir estilo e funcionalidade. Inspirada no conceito dos esportes americanos.</p>  
+                                    </div>  
+                                </div>  
+                            </div>
+                            <div class="tab-pane" id="moleton">  
+                                <div class="row">  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/moleton-black.webp" alt="Camisa Prison Baseball NY Off White">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Blusa Moletom Prison Logo Preto Minimalism</h5>  
+                                        <p class="text-sobre">O Moletom Prison Logo Preto Minimalism é a escolha ideal para quem busca simplicidade e sofisticação. Com design minimalista, ele apresenta a logo da Prison </p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/moleton-over-size.webp" alt="Camiseta de Baseball Prison 00 USA">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Moletom Oversized Black Edition Prison</h5>  
+                                        <p class="text-sobre">Adicione um toque de sofisticação ao seu visual com a Blusa de Moletom Lisa Preto Ultra Black Prison. Esta peça exclusiva combina um design minimalista com detalhes único</p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/moleton-bege.webp" alt="Camiseta Baseball Jersey Prison 23 Azul Royal">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Blusa de Moletom Vintage logo Prison Marrom</h5>  
+                                        <p class="text-sobre">Conforto e estilo clássico se unem nesta blusa de moletom vintage. Perfeita para quem busca uma peça versátil e cheia de personalidade</p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/moleton-yellow.webp" alt="Camiseta Baseball Jersey Prison 23 Vinho">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Blusa Moletom Streetwear Tie Dye Yellow</h5>  
+                                        <p class="text-sobre">Adicione um toque de estilo Streetwear ao seu visual com a Blusa Moletom Streetwear Tie Dye Yellow. Perfeita para quem busca andar mais no hype e contemporâneo</p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/moleton-special.webp" alt="Camiseta de Baseball Listrada Jersey Prison New York">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Jaqueta College Prison X NFL 1920 Edição Especial</h5>  
+                                        <p class="text-sobre">A Jaqueta College Prison x NFL 1920 é uma celebração única da união entre esporte e streetwear. Inspirada na estética dos anos 90, esta peça combina o luxo e a exclusividade da Prison® </p>  
+                                    </div>  
+                                </div>  
+                            </div> 
+                            <div class="tab-pane" id="calças">  
+                                <div class="row">  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/calças-pretas.webp" alt="Camisa Prison Baseball NY Off White">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Calça Cargo Prison Preta</h5>  
+                                        <p class="text-sobre">A Calça Cargo Prison Preta traz o melhor do streetwear aliado ao conceito esportivo do futebol americano. Esta peça é essencial para quem busca estilo,</p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/calça-moleton.webp" alt="Camiseta de Baseball Prison 00 USA">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Calça Moletom logo Essencial Prison</h5>  
+                                        <p class="text-sobre">A Calça Moletom Logo Essencial da Prison é a escolha perfeita para quem busca estilo e conforto no dia a dia. Produzida em material peluciado premium,</p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/calça-prison.webp" alt="Camiseta Baseball Jersey Prison 23 Azul Royal">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Calça Prison White Line Premium</h5>  
+                                        <p class="text-sobre">A Calça Prison White Line Premium é uma peça que une design moderno e conforto excepcional. Com detalhes em linhas brancas que destacam o estilo único da Prison, </p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/calças-borda-rangers.webp" alt="Camiseta Baseball Jersey Prison 23 Vinho">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Calça Moletom Prison x NFL Raiders Bordado Preta</h5>  
+                                        <p class="text-sobre">A Calça Moletom Prison x NFL Raiders Preta combina o legado dos Raiders com o autêntico estilo streetwear da Prison®. Feita para quem busca exclusividade</p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/calças-vegas-raiders.webp" alt="Camiseta de Baseball Listrada Jersey Prison New York">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Calça Moletom Prison x NFL Las Vegas Raiders</h5>  
+                                        <p class="text-sobre">A Calça Moletom Prison x NFL Las Vegas Raiders é para quem busca exclusividade e um estilo streetwear autêntico. Criada em colaboração com a NFL </p>  
+                                    </div>  
+                                </div>  
+                            </div> 
+                            <div class="tab-pane" id="acessorios">  
+                                <div class="row">  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/bone-red.webp" alt="Camisa Prison Baseball NY Off White">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Boné dad hat Prison New York</h5>  
+                                        <p class="text-sobre">Autenticidade e estilo: o boné aba curva PRISON é perfeito para quem busca exclusividade. Inspirado no design clássico de Nova York,</p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/bone-white.webp" alt="Camiseta de Baseball Prison 00 USA">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Boné dad hat Prison logo sport</h5>  
+                                        <p class="text-sobre">Eleve o nível do seu visual com o Boné Prison Deadheat Aba Curva. Desenvolvido com um design icônico e bordado em alto relevo, este acessório é a escolha ideal </p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/bone-dark.webp" alt="Camiseta Baseball Jersey Prison 23 Azul Royal">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Boné dad hat Prison champions</h5>  
+                                        <p class="text-sobre">O Boné Aba Curva New York Champions da Prison® une autenticidade e exclusividade em uma peça icônica para o seu look. Inspirado no universo esportivo americano, </p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/bag-blask.webp" alt="Camiseta Baseball Jersey Prison 23 Vinho">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Sholder Bag Prison x NFL philadefia eagles</h5>  
+                                        <p class="text-sobre">A Shoulder Bag Prison x NFL Philadelphia Eagles é o acessório perfeito para quem curte football americano e busca praticidade com estilo.</p>  
+                                    </div>  
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="img/produtos/camisa-streetwar/chaveiro.webp" alt="Camiseta de Baseball Listrada Jersey Prison New York">  
+                                        <h5 class="sub-title-color fw-bold mt-2">Chaveiro Cordão Prison NY Sport</h5>  
+                                        <p class="text-sobre">Adicione um toque de estilo urbano ao seu dia a dia com o Chaveiro Cordão Prison NY Sport. Este acessório é a combinação perfeita de funcionalidade e design moderno,</p>  
+                                    </div>  
+                                </div>  
+                            </div>
+                        </div>  
+                    </div>  
+                </div>  
+            </div>  
+        </section>
+        <section id="Estilo-vida" class="pt-5 pb-5 container-color">
+            <div class="container">
+                <div class="row mt-4">
+                    <h2 class="text-center sub-title-color">Estilo de vida</h2>
+                </div>
+                <div class="row">  
+                    <div class="col-md-4">
+                        <img src="./img/estilo de vida/skate.jpeg" alt="camisa de baseball" class="d-block w-100 rounded mb-2">
+                        <h3 class="sub-title-color">
+                            Skate como Estilo de Vida
+                        </h3>
+                        <p class="text-sobre"> Explore a liberdade e a adrenalina do skateboarding. Nossa coleção captura a essência urbana e ousada do universo dos skates, proporcionando não apenas estilo, mas também conforto e funcionalidade para suas manobras no asfalto.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./img/estilo de vida/snow.jpeg" alt="camisa de baseball" class="d-block w-100 rounded mb-2">
+                        <h3 class="sub-title-color">
+                            Conquiste a Montanha
+                        </h3>
+                        <p class="text-sobre">Sinta a emoção das descidas com nossa linha de roupas inspiradas no snowboard. Projetadas para enfrentar o frio e garantir mobilidade, nossas peças são ideais para quem busca aventuras nas montanhas, mantendo sempre um estilo autêntico e moderno.</p>
+                    </div>
+                    <div class="col-md-4 col-color">
+                        <img src="./img/estilo de vida/break.jpeg" alt="camisa de baseball" class="d-block w-100 rounded mb-2">
+                        <h3 class="sub-title-color">
+                            Movimente-se com Estilo
+                        </h3>
+                        <p class="text-sobre">Entre no ritmo do break dance e expresse sua individualidade. Nossas roupas são projetadas para oferecer liberdade de movimento e um visual autêntico, perfeitas para todos os dançarinos que desejam brilhar no palco ou nas ruas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5 ">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center sub-title-color">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb3">
+                                <label for="nome" class="form-label fw-bold sub-title-color">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb3">
+                                <label for="nome" class="form-label fw-bold sub-title-color">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>                            
+                            <div class="mb3">
+                                <label for="nome" class="form-label fw-bold sub-title-color">Seu Telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb3">
+                                <label for="mensagem" class="form-label fw-bold sub-title-color">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                                <button type="submit" class="btn fw-bold mt-4 mb-4 fs-5 text-colored">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 sub-title-color">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook title-cor"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram title-cor"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp title-cor"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3  class="section-title fs-4 sub-title-color" >
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p class="text-sobre">Rua Nossa Senhora do Contorno, N°1503 , Nova Delhi - São Goiânia - NW</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+</body>  
+</html>  
