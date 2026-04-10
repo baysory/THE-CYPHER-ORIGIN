@@ -23,8 +23,10 @@ body {
 
 .title-cor,
 .text-colored,
-.sub-menu-color{
+.sub-menu-color
+{
     color: #8A2BE2;
+
 }
 
 .sub-menu {
@@ -62,4 +64,6 @@ body {
     display: inline;
     color: #8A2BE2;
 }
+
+
 
