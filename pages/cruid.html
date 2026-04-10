@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&family=Sedgwick+Ave+Display&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>THE CYPHER</title>
 </head>
 <body>
@@ -21,7 +21,7 @@
             <nav class="navbar-collapse collapse justify-content-end" id="Menu-nav">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item fw fw-bold">
-                        <a href="index.html" class="nav-link fs-4">
+                        <a href="../index.html" class="nav-link fs-4">
                             <i class="bi bi-house me-1"></i>
                             Voltar ao Site
                         </a>
@@ -38,18 +38,28 @@
                 <div class="col-md-6">
                     <form method="post" action="#">
                         <div class="mb-3">
+                            <input type="text" name="clientCPF" class="form-control" placeholder="CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Formato: 000.000.000-00" required>
+                        </div>
+                        <div class="mb-3">
                             <input type="email" name="clientEmail" class="form-control" placeholder="E-mail" required>
                         </div>
                         <div class="mb-3">
                             <input type="password" name="clientPassword" class="form-control" placeholder="Senha" required>
                         </div>
+                        <div class="mb-3">
+                            <input type="password" name="clientConfirmPassword" class="form-control" placeholder="Confirmação de Senha" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" name="clientNumber" class="form-control" placeholder="Número (Opcional)">
+                        </div>
                             <button type="submit" class="btn fw-bold mt-4 mb-4 fs-5 text-colored">Enviar</button>
-                             <p ><a href="cruid.html" class="text-colored">Não tem conta? Cadastre-se</a></p>
+                            <p ><a href="Entrar.html" class="text-colored">Já tem uma conta? Clique aqui para entrar.</a></p>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
